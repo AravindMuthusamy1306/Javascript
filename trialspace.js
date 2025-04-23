@@ -1,5 +1,9 @@
-let fruits = ["apple", "banana", "cherry"];
+const celToFah = (celsius) =>
+{
+  let fahernhiet;
+  fahernhiet = (celsius * 9/5) + 32;
+  return fahernhiet;
+};
 
-for (let fruit of fruits) {
-  console.log(fruit);
-}
+let a = celToFah(4);
+console.log(a,"fahernhiet");
